@@ -12,3 +12,9 @@
 .joinBtn:hover {
   background-color: red;
 }
+.joinBtn:active {
+  background-color: blue;
+}
+.joinBtn:focus {
+  background-color: darkmagenta;
+}
