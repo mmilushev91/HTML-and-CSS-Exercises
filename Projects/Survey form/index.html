@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Survey Form</h1>
+  </header>
+  <main>
+    
+    <form>
+      <h2>Form title</h2>
+      <label for="name">Name:</label>
+      <input type="email" name="email" id="email" placeholder="Enter your email" />
+      <label for="email">Email:</label>
+      <input type="text" name="email" id="email" placeholder="Enter your email" />
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age" placeholder="Enter your age" min="18" max="122"/>
+      
+      <label for="role">Which option describes you best?</label>
+      <select name="role" id="role">
+        <option value="student">Student</option>
+        <option value="college">College</option>
+        <option value="part-time-employed">Part time employed</option>
+        <option value="full-time-employed">Full time employed</option>
+      </select>
+      
+      <label for="recommend">Will you recommend our website to a friend?</label>
+      <div id="recommend">
+        <input class="inline" type="radio" name="answer" id="yes" value="yes" />
+        <label class="inline" for="yes">Yes</label><br />
+        <input class="inline" type="radio" name="answer" id="no" value="no" />
+        <label class="inline" for="no">No</label><br />
+        <input class="inline" type="radio" name="answer" id="maybe" value="maybe" />
+        <label class="inline" for="maybe">Maybe</label>
+      </div>
+      
+      <label for="skills">Languages and frameworks known <span>(Check all that applies)</span></label>
+      
+      <div id="skills">
+        <input class="inline" type="checkbox" name="skills" id="c" value="C" />
+        <label class="inline" for="c">C</label><br />
+        
+        <input class="inline" type="checkbox" name="skills" id="c-plus" value="C++" />
+        <label class="inline" for="c-plus">C++</label><br />
+        
+        <input class="inline" type="checkbox" name="skills" id="c-sharp" value="C#" />
+        <label class="inline" for="c-sharp">C#</label><br />
+        
+        <input class="inline" type="checkbox" name="skills" id="java" value="java" />
+        <label class="inline" for="java">Java</label><br />
+        
+        <input class="inline" type="checkbox" name="skills" id="javascript" value="javascript" />
+        <label class="inline" for="javascript">JavaScript</label><br />
+        
+        <input class="inline" type="checkbox" name="skills" id="python" value="python" />
+        <label class="inline" for="python">Python</label><br />
+        
+        <input class="inline" type="checkbox" name="skills" id="react" value="react" />
+        <label class="inline" for="react">React</label><br />
+        
+        <input class="inline" type="checkbox" name="skills" id="angular" value="angular" />
+        <label class="inline" for="angular">Angular</label><br />
+        
+        <input class="inline" type="checkbox" name="skills" id="django" value="django" />
+        <label class="inline" for="django">Django</label><br />
+
+      </div>
+      
+      <label for="comments">Any comments or suggestions?</label>
+      
+      <textarea name="comments" id="comments" rows="3" cols="58" placeholder>
+        Enter your comment here
+      </textarea>
+      
+      <input type="submit" name="submit" id="submit" value="Submit" />
+      
+    </form>
+  </main>
+  <footer>
+    <p>Created by Marian Milushev. All rights reserved</p>
+  </footer>
+</body>
+
+</html>
