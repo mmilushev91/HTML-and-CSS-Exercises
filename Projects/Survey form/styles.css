@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  font-size: 16px;
+}
+
+
+header, footer {
+  padding-block: 20px;
+  background-color: #8fbc8f;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+form {
+  width:60%;
+  min-width: 500px;
+  margin: 50px auto;
+  border-left: 4px solid green;
+  border-right: 4px solid green;
+  border-top: 8px solid green;
+  border-bottom: 8px solid green;
+  padding: 30px 15px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 4px;
+}
+
+select {
+  width: 100%;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+
+.inline {
+  display: inline;
+  width: auto;
+}
+
+span {
+  font-size: 14px;
+  font-style: italic;
+}
+
+input[type*="submit"] {
+  background-color: green;
+  border: none;
+  color: white;
+  padding-block: 10px;
+  font-weight: bold;
+}
+
+input[type*="submit"]:hover {
+  background-color: #8fbc8f;
+  font-weight: bolder;
+  
+}
+
+footer {
+  padding-block: 32px;
+}
+
